@@ -1,0 +1,352 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	/*header area start*/
+	header{
+    padding: 30px 0;
+	}
+	.logo{
+		margin-bottom:30px;
+		text-align:center;
+	}
+	.logo img{
+		width:240px !important;
+	}
+	.header-text{
+		text-align:center;
+		margin-bottom:60px;
+	}
+	.header-text h1{
+		font-size:23px;
+		padding-right:0px;
+		margin:10px 0 0;
+	}
+	.header-text p{
+		padding:0 22px;
+	}
+	/*header area end*/
+
+	/*logo area start*/
+	.single-logo{
+		margin:10px 0;
+	}
+	/*logo area end*/
+
+	/*insurance content start here*/
+		.insurance-content {
+    	padding: 30px 0 0;
+		}
+		.insurance-text h2{
+			font-size:21px;
+			margin-bottom: 0;
+			margin-left:10px;
+		}
+		.insurance-img{
+			text-align:center;
+		}
+		.insurance-img img{
+			margin-left:0;
+			width:350px;
+	}
+	/*insurance content end here*/
+
+	/*started secton start here*/
+	.started-section{
+		padding: 90px 0 10px;
+    	margin-top: -70px;
+	}
+
+	.started-padd {
+    padding: 10px 0;
+	}
+	.single-started{
+		margin:15px 0;
+	}
+	.started-text h3 {
+    font-size: 25px;
+    margin-bottom:20px;
+	}
+	.started-text p {
+    	padding: 0 10px;
+	}
+	.single-started p {
+     padding: 0; 
+	}
+	.get-btn a{
+		display:block;
+
+	}
+	/*started secton start here*/
+
+	/*excelent content end here*/
+	.single-message h2 {
+    font-size: 28px;
+	}
+	.widget{
+		margin-top:30px;
+	}
+	/*excelent content end here*/
+
+	/*question section start here*/
+	.question-section {
+    padding: 50px 0 20px;
+	}
+	.question-text h2 {
+    font-size: 26px;
+    line-height: 40px;
+    margin-bottom: 10px;
+	}
+	.card-header button {
+    font-size: 14px;
+	}
+	.card-body {
+    padding: 25px;
+	}
+	.question-img{
+		text-align:center;
+		margin-top:35px;
+	}
+	/*question section end here*/
+
+	/*footer area start here*/
+	.footer-content {
+    padding: 60px 0 40px;
+	}
+	.footer-text p {
+    padding: 15px 6px 0;
+	}
+	.footer-btn ul li{
+	display:block;
+	}
+	.footer-btn ul li a{
+		width:100%;
+		display:block;
+		margin:10px 0;
+		padding: 10px 20px;
+	}
+	/*footer area end here*/
+ }
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*header area start*/
+	header{
+    padding: 30px 0;
+	}
+	.logo{
+		margin-bottom:30px;
+	}
+	.header-text{
+		text-align:center;
+		margin-bottom:60px;
+	}
+	.header-text h1{
+		font-size:32px;
+		padding-right:0px;
+		margin:10px 0;
+	}
+	.header-text p{
+		padding:0 45px;
+	}
+	/*header area end*/
+
+	/*logo area start*/
+	.logo-area{
+		margin-top:-100px;
+	}
+	.single-logo{
+		margin:10px 0;
+	}
+	/*logo area end*/
+	/*insurance content start here*/
+		.insurance-content {
+    	padding: 30px 0 0;
+		}
+		.insurance-text h2{
+			font-size:28px;
+			margin-bottom: 0;
+		}
+
+		.insurance-img{
+			text-align:center;
+		}
+		.insurance-img img{
+			margin-left:0;
+			width:350px;
+	}
+	/*insurance content start here*/
+
+	/*started secton start here*/
+	.started-section{
+		padding: 70px 0 10px;
+    	margin-top: -40px;
+	}
+	.started-padd {
+    padding: 30px 0;
+	}
+	.started-text h3{
+		font-size:32px;
+		margin-bottom:10px;
+	}
+	.started-text p {
+    	padding: 0 15px;
+	}
+	.single-started p {
+     padding: 0 28px; 
+	}
+	.get-btn a{
+		display:block;
+	}
+	/*started secton start here*/
+
+	/*excelent content end here*/
+	.single-message h2 {
+    font-size: 32px;
+	}
+	.widget{
+		margin-top:30px;
+	}
+	/*excelent content end here*/
+
+	/*question section start here*/
+	.question-section {
+    padding: 60px 0 20px;
+	}
+	.question-text h2 {
+    font-size: 28px;
+    line-height: 50px;
+    margin-bottom: 6px;
+	}
+	.card-header button {
+    font-size: 14px;
+	}
+	.card-body {
+    padding: 25px;
+	}
+	.question-img{
+		text-align:center;
+		margin-top:35px;
+	}
+	/*question section end here*/
+
+	/*footer area start here*/
+	.footer-text p {
+    padding: 20px 18px 0;
+	}
+	.footer-btn ul li{
+	display:block;
+	}
+	.footer-btn ul li a{
+		width:100%;
+		display:block;
+		margin:10px 0;
+	}
+	/*footer area end here*/
+ }
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+	/*header area start*/
+	header{
+    padding: 80px 0;
+	}
+	.logo img{
+		width:240px !important;
+	}
+	.header-text h1{
+		padding-right:20px;
+		margin:25px 0;
+	}
+	/*header area end*/
+
+
+	/*insurance content start here*/
+		.insurance-content {
+    	padding: 50px 0 0;
+		}
+		.insurance-text h2{
+			font-size:36px;
+			margin-bottom: 15px;
+		}
+		.insurance-img img{
+			margin-left:0;
+			width:350px;
+		}
+	/*insurance content end here*/
+	/*started secton start here*/
+	.started-section{
+		padding: 70px 0 10px;
+    	margin-top: -40px;
+	}
+	.started-padd {
+    padding: 30px 0;
+	}
+	.started-text h3{
+		font-size:32px;
+		margin-bottom:10px;
+	}
+	.started-text p {
+    	padding: 0 90px;
+	}
+	.single-started p {
+     padding: 0; 
+	}
+	/*started secton start here*/
+
+	/*question section start here*/
+	.question-section {
+    padding: 60px 0;
+	}
+	.question-text h2 {
+    font-size: 33px;
+    line-height: 50px;
+    margin-bottom: 15px;
+	}
+	.card-header button {
+    font-size: 14px;
+	}
+	.card-body {
+    padding: 25px;
+	}
+	/*question section end here*/
+
+
+	/*footer area start here*/
+	.footer-text p {
+    padding: 20px 23px 0;
+	}
+	/*footer area end here*/
+ }
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+	/*header area start*/
+	
+	.header-text h1{
+		padding-right:130px;
+	}
+	/*header area end*/
+
+	/*insurance content start here*/ 
+	.insurance-content {
+    padding: 50px 0 0;
+	}
+	/*insurance content end here*/
+
+	/*started secton start here*/
+	.started-section{
+		margin-top:-70px;
+	}
+	.started-padd {
+    padding: 30px 0;
+	}
+	.started-text p {
+    	padding: 0 90px;
+	}
+	.single-started p {
+     padding: 0; 
+	}
+	/*started secton start here*/
+
+ }
